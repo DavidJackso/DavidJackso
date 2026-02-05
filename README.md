@@ -51,6 +51,6 @@ Distributed reliability · Go concurrency · PostgreSQL performance · Observabi
 ---
 
 ## Contact
-GitHub: add link  
-Email: add email  
-LinkedIn / Telegram: optional
+GitHub: https://github.com/DavidJackso
+Email: gutnov3643@gmail.com  
+LinkedIn / Telegram: @josephspeedson
