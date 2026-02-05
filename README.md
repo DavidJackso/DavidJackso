@@ -1,4 +1,3 @@
-```md
 <div align="center">
 
 # Go Backend Developer
@@ -122,4 +121,3 @@ Service for automated processing of educational plans.
 ---
 
 > I build systems that remain reliable and maintainable even during unexpected failures.
-```
