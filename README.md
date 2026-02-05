@@ -1,4 +1,3 @@
-```md
 # Go Backend Engineer
 
 Backend engineer building fault-tolerant, production-grade services.
@@ -55,4 +54,3 @@ Distributed reliability · Go concurrency · PostgreSQL performance · Observabi
 GitHub: add link  
 Email: add email  
 LinkedIn / Telegram: optional
-```
