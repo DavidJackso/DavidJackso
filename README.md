@@ -1,32 +1,86 @@
-# 👋 Hey there! I'm David Gergiev
+<h1 align="center">David Gergiev</h1>
+<h3 align="center">Backend Developer (Go)</h3>
 
-### Junior Backend Engineer
+---
 
-Junior Backend Developer specializing in building high-performance, scalable systems with Go. Passionate about leveraging Go's concurrency model to optimize microservices architecture and deliver robust, low-latency backend solutions.
+## About
 
-## 🛠️ My Tech Stack
+Backend engineer specializing in Go.
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-00ADD8?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-00ADD8?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/REST API-00ADD8?style=for-the-badge&logo=rest-api&logoColor=white" />
-</p>
+Focus areas:
 
-## 🚀 Projects
+- Concurrency and memory efficiency  
+- PostgreSQL performance  
+- Distributed job processing  
+- API design and service reliability  
 
-### [E-commerce Microservice](#)
-Engineered a high-performance e-commerce order processing system using Go and gRPC, significantly reducing inter-service communication latency compared to traditional REST implementations. Optimized system reliability by ensuring data integrity through PostgreSQL transactional management and streamlined deployment processes utilizing Docker containerization.
+Currently studying Raft consensus and Go runtime internals.
 
-**Tech:** `Go`, `gRPC`, `PostgreSQL`
+---
 
-## 📊 GitHub Stats
+## Tech Stack
 
-![davidjackso's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidjackso&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=davidjackso&layout=compact&theme=tokyonight&langs_count=8)
+**Primary**
 
-## 📫 Let's Connect
+- Go  
+- PostgreSQL  
+- gRPC  
+- Docker  
 
-- 💼 LinkedIn: [gopherdev](https://linkedin.com/in/gopherdev)
-- 🐦 Twitter: [@gopherdev](https://twitter.com/gopherdev)
-- 📧 Email: [hello@gopher.dev](mailto:hello@gopher.dev)
+**Working knowledge**
+
+- Redis  
+- Linux  
+- CI/CD  
+- Testify  
+- Nginx  
+
+---
+
+## Featured Project
+
+### Distributed Task Queue  
+**Repository:** https://github.com/DavidJackso/distributed-task-queue
+
+Distributed job processing service built with Go and Redis.
+
+**Responsibilities:**
+
+- Designed and implemented worker pool using Go concurrency primitives  
+- Built idempotent handlers to ensure safe retries  
+- Implemented retry policies with backoff  
+- Added structured logging for failure analysis  
+
+**Results:**
+
+- Processes 30k+ jobs/day under synthetic load  
+- p95 latency: ~20ms  
+- Reduced memory consumption by ~25% after profiling and allocation optimization  
+
+**Tech:** Go, Redis, Docker
+
+---
+
+## Engineering Practices
+
+- Write unit and integration tests for critical paths  
+- Profile CPU and memory using pprof  
+- Prefer explicit error handling  
+- Design APIs with backward compatibility in mind  
+- Optimize only after measurement  
+
+---
+
+## Current Focus
+
+- Distributed systems fundamentals  
+- Contention reduction and allocation minimization  
+- Query optimization in PostgreSQL  
+- Service observability  
+
+---
+
+## Contact
+
+- LinkedIn — https://linkedin.com/in/gopherdev  
+- Email — hello@gopher.dev
