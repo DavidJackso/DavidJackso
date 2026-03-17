@@ -26,4 +26,4 @@ REST API для управления задачами.
 
 ---
 
-[LinkedIn]([https://linkedin.com/in/davidgergiev](https://www.linkedin.com/in/joseph-joestar-9023b0369/)) · [Mail](mailto:gutnov3643@gmail.com)
+[LinkedIn](https://linkedin.com/in/davidgergiev](https://www.linkedin.com/in/joseph-joestar-9023b0369/) · [Mail](mailto:gutnov3643@gmail.com)
