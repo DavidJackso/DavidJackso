@@ -1,45 +1,29 @@
-## David Gergiev
-Backend Developer (Go)
+# Gergiev David
 
-Backend developer focused on building reliable Go services, optimizing PostgreSQL workloads, and writing predictable concurrent code.
+Backend developer focused on Go. Строю сервисы, разбираюсь в том, как они работают изнутри — от планировщика до сети.
 
-### 🛠️ Tech Stack
+`Go` `PostgreSQL` `Redis` `Docker` `gRPC`
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Go-161b22?style=flat-square&logo=go&logoColor=00ADD8" />
-  <img src="https://img.shields.io/badge/PostgreSQL-161b22?style=flat-square&logo=postgresql&logoColor=00ADD8" />
-  <img src="https://img.shields.io/badge/Redis-161b22?style=flat-square&logo=redis&logoColor=00ADD8" />
-  <img src="https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=00ADD8" />
-  <img src="https://img.shields.io/badge/gRPC-161b22?style=flat-square&logo=grpc&logoColor=00ADD8" />
-  <img src="https://img.shields.io/badge/Testify-161b22?style=flat-square&logo=testify&logoColor=00ADD8" />
-</p>
+---
 
-### 🚀 Featured Projects
+## Projects
 
-#### [Distributed Task Queue](https://github.com/DavidJackso/distributed-task-queue)
-Redis-backed job processing service with worker pools, retry policies, and idempotent handlers.
+### [K_TIFY](https://github.com/DavidJackso/K_TIFY)
+Музыкальный стриминг-сервис с микросервисной архитектурой. API Gateway маршрутизирует запросы между независимыми Go-сервисами, каждый со своими данными. Поднимается через Docker Compose.
 
-**Operational Metrics:**
-- **Throughput:** 30k+ jobs/day (synthetic load)
-- **Latency:** p95: ~20ms
-- **Optimization:** 25% memory reduction via allocation profiling
+### [SSO](https://github.com/DavidJackso/SSO)
+Сервис аутентификации и единого входа на Go.
 
-**Stack:** Go • Redis • Docker • Testify
+### [todo](https://github.com/DavidJackso/todo)
+REST API для управления задачами.
 
-### ⚙️ Engineering Practices
+---
 
-- Unit and integration testing with Testify
-- Performance profiling using pprof
-- CI/CD pipeline implementation
-- API design with backward compatibility
-- Observability with Prometheus/Grafana
+## Currently
 
-### 🔭 Focus & Learning
+Изучаю распределённые системы — Raft, leader election, репликация лога.  
+Читаю исходники Go runtime: как работает планировщик, GC, escape analysis.
 
-- **Current Focus:** Distributed job processing and consensus fundamentals.
-- **Learning:** Studying Raft consensus and Go runtime behavior.
+---
 
-### 📫 Contact
-
-- LinkedIn: [in/davidgergiev](https://linkedin.com/in/davidgergiev)
-- Email: [hello@gopher.dev](mailto:hello@gopher.dev)
+[LinkedIn](https://linkedin.com/in/davidgergiev) · [hello@gopher.dev](mailto:gutnov3643@gmail.com)
