@@ -1,29 +1,45 @@
-# Gergiev David
+# David Gergiev
 
-Backend developer focused on Go. Строю сервисы, разбираюсь в том, как они работают изнутри — от планировщика до сети.
+**Backend Developer (Go)**
 
-`Go` `PostgreSQL` `Redis` `Docker` `gRPC`
+Разрабатываю production-сервисы на Go. Специализация — микросервисная архитектура, работа с БД и интеграции с внешними системами. Фокус на производительности, корректности и предсказуемом поведении под нагрузкой.
 
----
-
-## Projects
-
-### [K_TIFY](https://github.com/DavidJackso/K_TIFY)
-Музыкальный стриминг-сервис с микросервисной архитектурой. API Gateway маршрутизирует запросы между независимыми Go-сервисами, каждый со своими данными. Поднимается через Docker Compose.
-
-### [SSO](https://github.com/DavidJackso/SSO)
-Сервис аутентификации и единого входа на Go.
-
-### [todo](https://github.com/DavidJackso/todo)
-REST API для управления задачами.
+**Стек:**
+Go · PostgreSQL · Redis · Docker · gRPC
 
 ---
 
-## Currently
+## Project
 
-Изучаю распределённые системы — Raft, leader election, репликация лога.  
-Читаю исходники Go runtime: как работает планировщик, GC, escape analysis.
+### K_TIFY
+
+Музыкальный стриминг-сервис с микросервисной архитектурой.
+
+* API Gateway маршрутизирует запросы и изолирует внутренние сервисы
+* Сервисы разделены по доменным зонам, каждый владеет своим хранилищем
+* gRPC для межсервисного взаимодействия
+* Docker Compose для воспроизводимого окружения
+* Проектирование контрактов и границ сервисов
+
+**Что релевантно опыту:**
+
+* Применение тех же подходов, что и в production (декомпозиция, изоляция, контрактное взаимодействие) 
+* Опыт построения микросервисов и API с нуля (ERP, food-tech, интеграции с платежами) 
+* Работа с PostgreSQL и оптимизация запросов (снижение latency в 10 раз за счёт отказа от тяжёлых JOIN) 
+
+GitHub: https://github.com/DavidJackso/K_TIFY
 
 ---
 
-[LinkedIn](https://www.linkedin.com/in/joseph-joestar-9023b0369/) · [Mail](mailto:gutnov3643@gmail.com)
+## Focus
+
+* Распределённые системы: Raft, leader election, репликация
+* Внутреннее устройство Go: scheduler, GC, escape analysis
+* Надёжность сервисов и работа под нагрузкой
+
+---
+
+## Contact
+
+LinkedIn: https://www.linkedin.com/in/joseph-joestar-9023b0369/
+Email: [gutnov3643@gmail.com](mailto:gutnov3643@gmail.com)
