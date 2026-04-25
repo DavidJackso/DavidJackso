@@ -12,7 +12,7 @@
 
 ### K-TIFY — музыкальный стриминг на микросервисах
 
-→ [github.com/DavidJackso/K_TIFY](https://github.com/DavidJackso/K-TIFY)
+→ [github.com/DavidJackso/K-TIFY](https://github.com/DavidJackso/K-TIFY)
 
 Учебный проект, в котором применяю те же подходы, что в production: декомпозиция по доменным зонам, изоляция данных, контрактное взаимодействие через gRPC.
 
@@ -35,9 +35,7 @@
 - **Realtime-подписки** через PostgreSQL logical replication: чтение WAL → события INSERT/UPDATE/DELETE → рассылка по WebSocket с учётом прав доступа
 - Аутентификация: email + bcrypt, выпуск access/refresh JWT, сессии и роли
 - Инфраструктура: pgx, миграции, structured logging, graceful shutdown, тесты, запуск через Docker Compose одной командой
-
-Готов показать код и пройтись по реализации на интервью.
-
+  
 ---
 
 ## Стек
