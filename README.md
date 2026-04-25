@@ -10,9 +10,9 @@
 
 ## Открытые проекты
 
-### K_TIFY — музыкальный стриминг на микросервисах
+### K-TIFY — музыкальный стриминг на микросервисах
 
-→ [github.com/DavidJackso/K_TIFY](https://github.com/DavidJackso/K_TIFY)
+→ [github.com/DavidJackso/K_TIFY](https://github.com/DavidJackso/K-TIFY)
 
 Учебный проект, в котором применяю те же подходы, что в production: декомпозиция по доменным зонам, изоляция данных, контрактное взаимодействие через gRPC.
 
