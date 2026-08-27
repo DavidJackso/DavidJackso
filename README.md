@@ -155,6 +155,6 @@ Key achievements:
 
 📧 Email: spwground@gmail.com
 
-💬 Telegram: @gergievdavid
+💬 Telegram: [Gergiev David](https://t.me/gergievdavid)
 
-🔗 LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/%D0%B4%D0%B0%D0%B2%D0%B8%D0%B4-%D0%B3%D0%B5%D1%80%D0%B3%D0%B8%D0%B5%D0%B2-9023b0369/?isSelfProfile=true)
+🔗 LinkedIn: [Gergiev David](https://www.linkedin.com/in/%D0%B4%D0%B0%D0%B2%D0%B8%D0%B4-%D0%B3%D0%B5%D1%80%D0%B3%D0%B8%D0%B5%D0%B2-9023b0369/?isSelfProfile=true)
