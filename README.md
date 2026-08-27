@@ -120,8 +120,6 @@ Custom PocketBase fork with additional functionality, architectural improvements
 
 ### Backend Engineer — ODVA Digital Company
 
-**February 2023 – Present**
-
 Projects:
 
 - ERP platform for agribusiness
