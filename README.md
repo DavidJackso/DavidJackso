@@ -1,53 +1,160 @@
-# Давид Гергиев
+# Hi, I'm David Gergiev
 
-**Backend Developer · Go**
+**Backend Engineer (Go)**
 
-С февраля 2023 пишу production-сервисы в Odva Digital Company: ERP-система для управления садом и плодохранилищами (agro-erp.ru), Go-микросервис микромаркетов с интеграцией платёжного терминала и фискализации (vkusnoibistro.com), интеграции для AI-платформы dzyrd.io. Финалист хакатона VK Education × MAX — топ-6 из 2 700 команд.
+Building distributed systems, backend platforms and business-critical services with Go and PostgreSQL.
 
-Интересуют задачи с реальной нагрузкой и нетривиальной архитектурой.
-
----
-
-## Открытые проекты
-
-### K-TIFY — музыкальный стриминг на микросервисах
-
-→ [github.com/DavidJackso/K-TIFY](https://github.com/DavidJackso/K-TIFY)
-
-Учебный проект, в котором применяю те же подходы, что в production: декомпозиция по доменным зонам, изоляция данных, контрактное взаимодействие через gRPC.
-
-- 4 сервиса (API Gateway, SSO, Tracks, Playlists), каждый со своей PostgreSQL
-- gRPC между сервисами + REST наружу через gateway, JWT-аутентификация
-- Доменные ошибки пробрасываются через service → gRPC handler и маппятся в точные коды (`NotFound`, `Unauthenticated`, `AlreadyExists`) — не сваливаются в `Internal`
-- Correlation ID генерируется gateway и пробрасывается в gRPC-метаданные через interceptor
-- Connection pooling настроен явно (`MaxOpenConns`, `MaxIdleConns`, lifetimes)
-- Multi-stage Docker билд → distroless образы, healthchecks, миграции отдельным контейнером
-- CI на GitHub Actions: golangci-lint + `go test -race` + docker build для каждого сервиса
-
-**Стек:** Go 1.24, gRPC, PostgreSQL 16, Docker, golang-migrate, JWT/bcrypt
-
-### Backend-as-a-Service платформа на Go *(в активной разработке, репозиторий приватный)*
-
-Свой аналог Supabase: поверх PostgreSQL автоматически поднимаются REST API, авторизация и realtime — клиент работает с БД как с готовым backend. Цель — разобрать изнутри, как устроены PostgREST, GoTrue и Realtime.
-
-- **Автогенерация REST API** по `information_schema` PostgreSQL: динамические эндпоинты для таблиц и представлений с фильтрами, пагинацией, сортировкой и выбором полей
-- **Row Level Security** через проброс JWT-клеймов в сессионные переменные PostgreSQL — авторизация на уровне БД, а не приложения
-- **Realtime-подписки** через PostgreSQL logical replication: чтение WAL → события INSERT/UPDATE/DELETE → рассылка по WebSocket с учётом прав доступа
-- Аутентификация: email + bcrypt, выпуск access/refresh JWT, сессии и роли
-- Инфраструктура: pgx, миграции, structured logging, graceful shutdown, тесты, запуск через Docker Compose одной командой
-  
----
-
-## Стек
-
-**Уверенно:** Go · PostgreSQL · gRPC · REST · Docker · Linux · Git
-**Использую:** PHP · MySQL · Nginx · CI/CD · pgx · testify
-**Изучаю:** распределённые системы, внутреннее устройство Go (scheduler, GC, escape analysis)
+Currently developing production systems for ERP platforms, payment processing, AI-powered analytics and a multi-tenant Backend-as-a-Service platform.
 
 ---
 
-## Контакты
+## About Me
 
-- Email — [gutnov3643@gmail.com](mailto:gutnov3643@gmail.com)
-- Telegram — [@josephspeedson](https://t.me/josephspeedson)
-- LinkedIn — [linkedin.com/in/joseph-joestar-9023b0369](https://www.linkedin.com/in/joseph-joestar-9023b0369/)
+Backend Engineer with 3.5+ years of commercial experience building backend systems from architecture design to production deployment.
+
+My expertise includes:
+
+- Distributed Systems
+- Backend Architecture
+- System Design
+- PostgreSQL
+- Microservices
+- Event-Driven Systems
+- API Design
+- Performance Optimization
+- High Availability
+- Fault Tolerance
+
+I enjoy solving complex engineering challenges involving scalability, reliability, data consistency and platform design.
+
+---
+
+## Featured Projects
+
+### Nerion — Backend-as-a-Service Platform
+
+A multi-tenant Backend-as-a-Service platform built from scratch.
+
+#### Highlights
+
+- Multi-tenant architecture using isolated PostgreSQL schemas
+- Dynamic schema engine with runtime table generation
+- Automatic REST API generation
+- JWT authentication and authorization
+- API key management
+- Role-based access control
+- OpenAPI generation
+- Realtime subscriptions
+- PostgreSQL Row Level Security
+- S3-compatible object storage
+
+**Tech Stack:** Go, PostgreSQL, pgx, JWT, Docker
+
+---
+
+### K-TIFY — Distributed Music Streaming Platform
+
+Educational project focused on production-grade backend architecture.
+
+#### Highlights
+
+- API Gateway architecture
+- SSO Service
+- Tracks Service
+- Playlist Service
+- Separate PostgreSQL database per service
+- gRPC communication
+- JWT authentication
+- Correlation IDs
+- Structured logging
+- Health checks
+- GitHub Actions CI
+- Multi-stage Docker builds
+
+**Tech Stack:** Go, PostgreSQL, gRPC, Docker, GitHub Actions
+
+---
+
+### PocketBase Enhanced
+
+Custom PocketBase fork with additional functionality, architectural improvements and platform extensions.
+
+#### Areas of Work
+
+- Backend extensions
+- Internal architecture improvements
+- Performance optimization
+- Platform customization
+
+**Tech Stack:** Go, SQLite, REST API
+
+---
+
+## Tech Stack
+
+### Backend
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
+
+### Databases
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-D92C20?style=for-the-badge&logo=redis&logoColor=white)
+
+### Messaging
+
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-000000?style=for-the-badge&logo=apachekafka&logoColor=white)
+
+### Infrastructure
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+## Professional Experience
+
+### Backend Engineer — ODVA Digital Company
+
+**February 2023 – Present**
+
+Projects:
+
+- ERP platform for agribusiness
+- Payment processing backend for self-service retail
+- AI-powered sales analytics platform
+- Nerion Backend-as-a-Service platform
+
+Key achievements:
+
+- Designed and developed backend systems from scratch
+- Built and maintained microservice architectures
+- Optimized PostgreSQL workloads by up to 10x
+- Migrated legacy functionality into Go services
+- Developed integrations with payment providers, CRM systems and external APIs
+
+---
+
+## Current Interests
+
+- Distributed Systems
+- PostgreSQL Internals
+- Event-Driven Architecture
+- High-Load Systems
+- Go Runtime Internals
+- Database Performance
+- System Design
+
+---
+
+## Contact
+
+📧 Email: your-email@example.com
+
+💬 Telegram: @yourtelegram
+
+🔗 LinkedIn: linkedin.com/in/your-profile
