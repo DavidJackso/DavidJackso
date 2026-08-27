@@ -153,8 +153,8 @@ Key achievements:
 
 ## Contact
 
-📧 Email: your-email@example.com
+📧 Email: spwground@gmail.com
 
-💬 Telegram: @yourtelegram
+💬 Telegram: @gergievdavid
 
-🔗 LinkedIn: linkedin.com/in/your-profile
+🔗 LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/%D0%B4%D0%B0%D0%B2%D0%B8%D0%B4-%D0%B3%D0%B5%D1%80%D0%B3%D0%B8%D0%B5%D0%B2-9023b0369/?isSelfProfile=true)
