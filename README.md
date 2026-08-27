@@ -10,7 +10,7 @@ Currently developing production systems for ERP platforms, payment processing, A
 
 ## About Me
 
-Backend Engineer with 3.5+ years of commercial experience building backend systems from architecture design to production deployment.
+Backend Engineer of commercial experience building backend systems from architecture design to production deployment.
 
 My expertise includes:
 
